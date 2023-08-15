@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "What is your favorite color?"
+
+echo "1 - White"
+echo "2 - Black"
+echo "3 - Red"
+echo "4 - Green"
+echo "5 - Blue"
+echo "6 - Something else..."
+
+read color;
+
+case $color in
+    1) echo "White is the mother color.";;
+    2) echo "Black is the color of galaxy.";;
+    3) echo "Red is the fairytales color.";;
+    4) echo "Green is the color of hope.";;
+    5) echo "Blue is the color of life.";;
+    6) echo "There are many colors out there.";;
+    *) echo "you didn't enter an appropriate choice.";;
+esac
